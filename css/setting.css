@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+div.wrapper{
+    width: 100%;
+}
+.swiper {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+@font-face {
+    font-family: font1;
+    src: url(./../fonts/xn7gYHE41ni1AdIRggexSg.woff2);
+}
